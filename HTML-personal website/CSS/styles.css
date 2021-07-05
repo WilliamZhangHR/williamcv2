@@ -1,0 +1,61 @@
+/************************Tag slector ********************/
+/*WIll overwrite the default*/
+body{
+  background-color:#CEE5D0;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color:white;
+  border-width: 5px;
+  height: 0;
+  width: 100%;
+}
+h1{
+  color:#5E454B;
+}
+
+h3{
+  color: #5E454B;
+}
+
+h2:hover{    /*只有在鼠标点到的时候才会触发*/ /*contact 在被点的时候会变红*/
+  color:red;
+}
+
+img{
+  height:400px;
+}
+
+/***************************Class Selector*******************/
+.circular{
+  border-radius: 100%;
+}
+/*can use infintie class in a single page*/
+/*we can add two classes to a same html; however we cannot do it to id*/
+/*ex: <img class = "graduation circular" src = "kdasda"
+.graduation{
+  background-color: blue;
+}
+.circular{
+  border-radius: 100%;
+}
+*/
+/*
+.subtitle{
+  background-color: blue;
+}
+
+.test{
+  background-color: red;
+
+}
+*/
+/***************************ID Selector**************************/
+/*Can only use one id in a single page*/
+/*
+#heading{
+  color: blue;
+}
+*/
